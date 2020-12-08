@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">SoulCare</string>
+    <string name="viewContacts">View Contacts</string>
+    <string name="create_contact">Create Contact</string>
+    <string name="call_sms">Call/Send Message</string>
+    <string name="phone_sms_title">Phone Call and Messaging</string>
+    <string name="phone_title">Enter Phone Number</string>
+    <string name="message_title">Compose Message</string>
+    <string name="add_vital">Add Vitals</string>
+    <string name="view_vital_label">View Vitals</string>
+    <string name="create_title">Create Contact</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="contact_phonenum">Contact Phone Number</string>
+    <string name="create_contact_button">Create Contact</string>
 </resources>
