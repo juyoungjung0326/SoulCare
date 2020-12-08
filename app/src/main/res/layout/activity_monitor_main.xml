@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:background="#273E4C"
+
+
+    android:paddingRight="16dp" >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/heart"
+        android:scaleType="fitStart"
+        android:scaleY="1"
+        />
+
+
+    <Button
+
+        android:id="@+id/Button7"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/aa"
+        android:backgroundTint="@color/black"
+
+        android:text="List of medicines"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold" />
+    <Button
+
+        android:id="@+id/button_record"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/aa"
+        android:backgroundTint="@color/black"
+
+        android:text="Add Records"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/Button8"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/aa"
+        android:backgroundTint="@android:color/black"
+        android:text="Add Medicines"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button8"
+        android:layout_marginTop="195dp"
+        android:layout_marginLeft="90dp"
+        android:text="Health Tips: Monitor Your Health Frequently"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
