@@ -4,6 +4,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
 
     <application
         android:allowBackup="true"
@@ -12,13 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SoulCare">
-        <activity android:name=".LaunchContactAndVitals">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+
         <activity android:name=".phone_sms" />
         <activity android:name=".view_contacts" />
         <activity android:name=".create_contact" />
@@ -27,7 +23,30 @@
         <activity android:name=".ViewVitals" />
         <activity android:name=".AddVitalsActivity" />
         <activity android:name=".VitalsMenu" />
+        <activity android:name=".service"></activity>
+        <activity android:name=".last_visit" />
+        <activity android:name=".Mtype_list" />
+        <activity android:name=".monitorMain" />
+        <activity android:name=".add_record" />
+        <activity android:name=".MainSearch" />
+        <activity android:name=".add_edit_doctor" />
+        <activity android:name=".healthrecord">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".Doctor_info" />
+        <activity android:name=".setTimer" />
+        <activity android:name=".editData" />
+        <activity android:name=".list_medicines" />
+        <activity android:name=".add_meds" />
         <activity android:name=".MainActivity">
+
 
         </activity>
     </application>
