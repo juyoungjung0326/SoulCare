@@ -12,4 +12,12 @@
     <string name="contact_name">Contact Name</string>
     <string name="contact_phonenum">Contact Phone Number</string>
     <string name="create_contact_button">Create Contact</string>
+    <string name="daily_vitals_form">Daily Vitals Form</string>
+    <string name="enter_your_body_temperature_farenheit">Enter Your Body Temperature (Farenheit)</string>
+    <string name="enter_your_heart_rate_bpm">Enter Your Heart Rate (BPM)</string>
+    <string name="enter_your_blood_pressure_mm_hg">Enter Your Blood Pressure (mm/Hg)</string>
+    <string name="enter_your_blood_glucose_level_mg_dl">Enter Your Blood Glucose Level (mg/dL)</string>
+    <string name="enter_your_cholesterol_level_mg_dl">Enter Your Cholesterol Level (mg/dL)</string>
+    <string name="submit">submit</string>
+    <string name="please_enter_the_date_yyyy_mm_dd">Please Enter the Date (yyyy-mm-dd)</string>
 </resources>
