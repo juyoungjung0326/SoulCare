@@ -10,17 +10,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 public class dietActivity extends AppCompatActivity {
-    private Toolbar toolbar;
-
+    //private Toolbar toolbar;
+    Button brek, lun, din, snak, weight, toMain;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Button brek, lun, din, snak, weight, toMain;
 
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_diet);
 
-        toolbar = findViewById(R.id.myToolBar);
-        setSupportActionBar(toolbar);
+        super.onCreate(savedInstanceState);setContentView(R.layout.activity_diet);
+
+
+       //toolbar = findViewById(R.id.myToolBar);
+       // setSupportActionBar(toolbar);
 
 
         brek = findViewById(R.id.addbrk);

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="#263C4A">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <Button
+        android:id="@+id/Info"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Personal Information"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/aa"/>
+
+    <Button
+        android:id="@+id/Vital"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Vital Signs"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Info"
+        app:layout_constraintVertical_bias="0.056"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/aa"/>
+
+    <Button
+        android:id="@+id/Medication"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Medication"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Info"
+        app:layout_constraintVertical_bias="0.207"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/aa"/>
+
+    <Button
+        android:id="@+id/Diet"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/aa"
+        android:onClick="launchDiet"
+        android:text="Diet Management"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Medication"
+        app:layout_constraintVertical_bias="0.097"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Search"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Diet"
+        app:layout_constraintVertical_bias="0.102"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/aa"/>
+
+    <Button
+        android:id="@+id/Monitor"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Monitor"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Search"
+        app:layout_constraintVertical_bias="0.127"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/aa"/>
+
+    <Button
+        android:id="@+id/Communication"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Communication"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Monitor"
+        app:layout_constraintVertical_bias="0.213"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/aa"/>
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Communication"
+        app:layout_constraintVertical_bias="0.555"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/aa"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
