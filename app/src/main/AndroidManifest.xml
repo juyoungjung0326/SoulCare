@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.soulcare">
+
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -14,6 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SoulCare">
 
+       
+
+
+
 
         <activity android:name=".phone_sms" />
         <activity android:name=".view_contacts" />
@@ -22,7 +27,15 @@
         <activity android:name=".find_pulse" />
         <activity android:name=".ViewVitals" />
         <activity android:name=".AddVitalsActivity" />
-        <activity android:name=".VitalsMenu" />
+        <activity android:name=".VitalsMenu" /> 
+
+        <activity android:name=".dietActivity"></activity>
+        <activity android:name=".updateWeight" />
+        <activity android:name=".addSnack" />
+        <activity android:name=".addDin" />
+        <activity android:name=".addBrek" />
+        <activity android:name=".addLun"/>
+
         <activity android:name=".service"></activity>
         <activity android:name=".last_visit" />
         <activity android:name=".Mtype_list" />
@@ -49,6 +62,7 @@
 
 
         </activity>
+
     </application>
 
 </manifest>
