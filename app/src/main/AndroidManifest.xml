@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.soulcare">
+
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -12,13 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SoulCare">
-        <activity android:name=".LaunchContactAndVitals">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Activity_Diet"></activity>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".phone_sms" />
         <activity android:name=".view_contacts" />
         <activity android:name=".create_contact" />
@@ -27,9 +23,14 @@
         <activity android:name=".ViewVitals" />
         <activity android:name=".AddVitalsActivity" />
         <activity android:name=".VitalsMenu" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
 
-        </activity>
+        <activity android:name=".dietActivity"></activity>
+        <activity android:name=".updateWeight" />
+        <activity android:name=".addSnack" />
+        <activity android:name=".addDin" />
+        <activity android:name=".addBrek" />
+        <activity android:name=".addLun"/>
     </application>
 
 </manifest>
