@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+
+    android:background="@drawable/gede"
+
+    android:paddingRight="16dp" >
+
+    <Button
+
+        android:id="@+id/visit_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/newaa"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+
+        android:text="Last Visit"
+        />
+
+    <Button
+        android:id="@+id/ServiceHistory"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:background="@drawable/newaa"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="220dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Service History"
+        android:textColor="@android:color/holo_green_light" />
+
+
+</RelativeLayout>

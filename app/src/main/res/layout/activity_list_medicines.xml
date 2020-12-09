@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:background="#273E4C"
+
+
+
+    android:paddingRight="16dp" >
+
+    <ImageView
+        android:id="@+id/ques"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="80dp"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/meds" />
+    <ImageView
+        android:id="@+id/ques1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/jj" />
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:defaultFocusHighlightEnabled="true">
+    </ListView>
+
+
+</RelativeLayout>

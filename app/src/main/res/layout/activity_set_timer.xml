@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:background="#273E4C"
+
+
+
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="228dp"
+        android:layout_height="201dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="210dp"
+        android:drawableTop="@drawable/ic_baseline_timer_24"
+        android:gravity="center_horizontal"
+        android:textColor="#0ED9AB"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ques"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="80dp"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/meds" />
+
+    <ImageView
+        android:id="@+id/stoptime"
+        android:layout_width="49dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="488dp"
+        android:layout_toRightOf="@id/count"
+        android:src="@drawable/ic_baseline_stop_circle_24" />
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="475dp"
+        android:textSize="@android:dimen/app_icon_size"
+        android:text="00:00 "
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_stop_circle_24"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="247dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="470dp"
+        android:text="HOURS    MINUTES "
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/jj" />
+
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="410dp"
+        android:text="START"
+        android:textColor="#FF0000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/count"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:text="In Case You Run out of Medicine, Contact Doctor for Prescription or "
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        android:text="Please Reset the Timer First By Pressing This icon"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/count"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="116dp"
+        android:text="Nearest Pharmacy"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="181dp"
+        android:drawableTop="@drawable/ic_baseline_align_horizontal_left_24"
+        android:gravity="center_horizontal"
+        android:textColor="#0ED9AB"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginBottom="181dp"
+        android:drawableTop="@drawable/ic_baseline_align_horizontal_right_24"
+        android:gravity="center_horizontal"
+        android:textColor="#0ED9AB"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
